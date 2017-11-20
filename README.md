@@ -92,10 +92,12 @@ EXPRESIONES REGULARES, CODIFICACION, ETC.
 
 CLASES
 ------
-
 * No existe herencia de clases en Java, sino Delegación de Comportamiento. Se basa en la idea de prototipo de un objeto y en la reasignación de prototipos.
 
 PROMISES
 --------
+* Una promesa es una función que no devuelve un resultado, sino la promesa del mismo. Debe controlar si la ejecución devuelve errores para que se gestione la excepción adecuadamente. Mediante el uso de promises se evita la pirámide de callbacks y se hace el código más legible, ya que se pueden encadenar salidas de promises mediante la instrucción .then y se gana en claridad de código.
 
-
+ASYNC FUNCTIONS
+---------------
+* 
