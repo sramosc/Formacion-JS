@@ -1,9 +1,9 @@
 Curso JS
 --------
 
-Andrea Puddu\n
-tw: @nuragic 
-url: www.nuragic.io
++ Andrea Puddu
++ tw: @nuragic 
++ url: www.nuragic.io
 
 Objetivos
 ---------
@@ -40,8 +40,8 @@ DESTRUCTURING
   const o = { a:1, b:2}
   const {a:first,b:second} = o;
 * Asignacion parcial:
-  > var [x,y] = [3];
-  > x
+  - > var [x,y] = [3];
+  - > x
   < 3
   > y
   < undefined
