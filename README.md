@@ -35,57 +35,57 @@ VARIABLES
 DESTRUCTURING
 -------------
 
-  1.- Permite acceder a todos o varios de los valores de un objeto de golpe
-  2.- Asignacion multiple:
-      const o = { a:1, b:2}
-      const {a:first,b:second} = o;
-  3.- Asignacion parcial:
-      > var [x,y] = [3];
-      > x
-      < 3
-      > y
-      < undefined
-  4.- Uso de funciones implicitas en la asignacion
+* Permite acceder a todos o varios de los valores de un objeto de golpe
+* Asignacion multiple:
+  const o = { a:1, b:2}
+  const {a:first,b:second} = o;
+* Asignacion parcial:
+  > var [x,y] = [3];
+  > x
+  < 3
+  > y
+  < undefined
+* Uso de funciones implicitas en la asignacion
       > var (length : len) = 'abc';
       > leng
       < 3
-  5.- Asignaciones que se saltan un valor:
+ * Asignaciones que se saltan un valor:
       > var [a, ,b]=[0,1,2]
       > a
       < 0
       > b
       < 2
-  6.- Asignaciones reciprocas:
+* Asignaciones reciprocas:
       > [a,b]=[b,a]
 
 OBJECTS
 -------
 
-  * Uso del Object.assign:
+* Uso del Object.assign:
     > var oo = Object.assign({a:1},{b:{c:1,d:3}});
     < undefined
     > oo
     < {a: 1, b: {…}}
-  * Uso de .__proto__:
-    - En desuso, obsoleto. No se debería usar.
-    - Object.getPrototypeOf(Object); devuelve el mismo resultado
-    - Uso de expresiones dinamicas para creacion de propiedades:
-      > var prefix = '__';
-      > var ooo = { [prefix] + 'Foo': 'bar'};
-    - Uso de shorthands para reducir código (en getters y setters)
+* Uso de .__proto__:
+  * En desuso, obsoleto. No se debería usar.
+  * Object.getPrototypeOf(Object); devuelve el mismo resultado
+  * Uso de expresiones dinamicas para creacion de propiedades:
+   > var prefix = 'prefijo';
+   > var ooo = { [prefix] + 'Foo': 'bar'};
+  * Uso de shorthands para reducir código (en getters y setters)
 
 SPREAD / GENERADORES
 --------------------
 
-  * Uso del ... para obtener de golpe el contenido de un array como valores individuales
-  * Potencia la extraccion de datos
+* Uso del ... para obtener de golpe el contenido de un array como valores individuales
+* Potencia la extraccion de datos
 
 ARROW FUNCTIONS
 ---------------
 
-  * (parametros opcionales) => {cuerpo de la funcion}
+* (parametros opcionales) => {cuerpo de la funcion}
 
 EXPRESIONES REGULARES, CODIFICACION, ETC.
 -----------------------------------------
 
-  * template literal: ${identificador}
+* template literal: ${identificador}
