@@ -1,11 +1,11 @@
-Curso JS
+CURSO JS
 --------
 
 + Andrea Puddu
 + tw: @nuragic 
 + url: www.nuragic.io
 
-Objetivos
+OBJETIVOS
 ---------
 
 Crear una app desde el principio
@@ -44,17 +44,17 @@ DESTRUCTURING
   - > x
   - < 3
   - > y
-  - < undefined
+  - undefined
 * Uso de funciones implicitas en la asignacion
   - > var (length : len) = 'abc';
   - > leng
-  - < 3
- * Asignaciones que se saltan un valor:
+  - 3
+* Asignaciones que se saltan un valor
   - > var [a, ,b]=[0,1,2]
   - > a
-  - < 0
+  - 0
   - > b
-  - < 2
+  - 2
 * Asignaciones reciprocas:
   - > [a,b]=[b,a]
 
@@ -63,9 +63,9 @@ OBJECTS
 
 * Uso del Object.assign:
   - > var oo = Object.assign({a:1},{b:{c:1,d:3}});
-  - < undefined
+  - undefined
   - > oo
-  - < {a: 1, b: {…}}
+  - {a: 1, b: {…}}
 * Uso de .__proto__:
   - En desuso, obsoleto. No se debería usar.
   - Object.getPrototypeOf(Object); devuelve el mismo resultado
@@ -94,4 +94,8 @@ CLASES
 ------
 
 * No existe herencia de clases en Java, sino Delegación de Comportamiento. Se basa en la idea de prototipo de un objeto y en la reasignación de prototipos.
+
+PROMISES
+--------
+
 
