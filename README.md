@@ -1,6 +1,8 @@
 Curso JS
 --------
-Andrea Puddu @nuragic www.nuragic.io
+Andrea Puddu 
+tw: @nuragic 
+url: www.nuragic.io
 
 Objetivos
 ---------
@@ -28,6 +30,7 @@ VAR, LET Y CONST:
   3.- Su valor no puede ser reasignado, salvo que sea un Object o un Array, mediante los metodos propios de añadir datos (shift,push,...)
 
 DESTRUCTURING:
+
   1.- Permite acceder a todos o varios de los valores de un objeto de golpe
   2.- Asignacion multiple:
       const o = { a:1, b:2}
