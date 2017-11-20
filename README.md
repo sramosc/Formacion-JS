@@ -1,7 +1,7 @@
 Curso JS
 --------
 
-Andrea Puddu 
+Andrea Puddu\n
 tw: @nuragic 
 url: www.nuragic.io
 
