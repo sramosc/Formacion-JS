@@ -12,8 +12,9 @@ Crear una app desde el principio
 * strict mode: modulos y clases siempre son estrictos
 * Recomendable el uso de ESLint
 
-ES6
----
+VARIABLES
+---------
+
 * VAR, LET Y CONST:
 * Razones de no usar var:
   1.- Puede crear variables globales
@@ -29,7 +30,9 @@ ES6
   2.- Debe ser inicializada
   3.- Su valor no puede ser reasignado, salvo que sea un Object o un Array, mediante los metodos propios de añadir datos (shift,push,...)
 
-* DESTRUCTURING:
+DESTRUCTURING
+-------------
+
   1.- Permite acceder a todos o varios de los valores de un objeto de golpe
   2.- Asignacion multiple:
       const o = { a:1, b:2}
@@ -54,6 +57,8 @@ ES6
       > [a,b]=[b,a]
 
 OBJECTS
+-------
+
   * Uso del Object.assign:
     > var oo = Object.assign({a:1},{b:{c:1,d:3}});
     < undefined
@@ -68,11 +73,17 @@ OBJECTS
     - Uso de shorthands para reducir código (en getters y setters)
 
 SPREAD / GENERADORES
+--------------------
+
   * Uso del ... para obtener de golpe el contenido de un array como valores individuales
   * Potencia la extraccion de datos
 
 ARROW FUNCTIONS
+---------------
+
   * (parametros opcionales) => {cuerpo de la funcion}
 
 EXPRESIONES REGULARES, CODIFICACION, ETC.
+-----------------------------------------
+
   * template literal: ${identificador}
