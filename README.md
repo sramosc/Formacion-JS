@@ -1,11 +1,13 @@
 Curso JS
 --------
+
 Andrea Puddu 
 tw: @nuragic 
 url: www.nuragic.io
 
 Objetivos
 ---------
+
 Crear una app desde el principio
 
 * Carga de dependencias: script, async, defer, "module", "module" async
@@ -17,18 +19,18 @@ VARIABLES
 
 * VAR, LET Y CONST:
 * Razones de no usar var:
-  1.- Puede crear variables globales
-  2.- No tiene ámbito de bloque (hoisting + ambito de funcion)
-  3.- A partir de ES6 usar let y const
+  * Puede crear variables globales
+  * No tiene ámbito de bloque (hoisting + ambito de funcion)
+  * A partir de ES6 usar let y const
 
 * let:
-  1.- Tiene ambito de bloque, no aplica hoisting
-  2.- No permite redeclarar
+  * Tiene ambito de bloque, no aplica hoisting
+  * No permite redeclarar
 
 * const:
-  1.- Igual que LET
-  2.- Debe ser inicializada
-  3.- Su valor no puede ser reasignado, salvo que sea un Object o un Array, mediante los metodos propios de añadir datos (shift,push,...)
+  * Igual que LET
+  * Debe ser inicializada
+  * Su valor no puede ser reasignado, salvo que sea un Object o un Array, mediante los metodos propios de añadir datos (shift,push,...)
 
 DESTRUCTURING
 -------------
